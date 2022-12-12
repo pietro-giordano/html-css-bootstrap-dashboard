@@ -14,29 +14,30 @@
 </head>
 <body>
       <!-- HEADER  -->
-      <header>
+      <header class="bg-light">
 
-            <div class="container-fluid">
-                  <div class="row align-items-center bg-light">
-                        <div class="col-auto bg-white box">
-                              <img src="img/logo.svg" alt="boolean-logo">
+            <div class="container-fluid py-3">
+                  <div class="row align-items-center bg-white">
+                        <div class="col-auto">
+                              <img src="img/logo.svg" class="d-none d-lg-inline" alt="boolean-logo">
+                              <img src="img/mobile-logo.png" class="d-lg-none" alt="boolean-logo">
                         </div>
 
-                        <div class="col bg-white">
+                        <div class="col">
                               <div class="input-group my-search-bar">
                                     <button class="btn border-0" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
-                                    <input type="text" class="form-control border-0" placeholder="Prova a cercare: lezioni di Laravel">
+                                    <input type="text" class="form-control border-0 px-0" placeholder="Prova a cercare: lezioni di Laravel">
                               </div>
                         </div>
 
-                        <div class="col-auto bg-white box px-0">
-                              <button class="btn px-2">
+                        <div class="col-auto px-0 my-buttons">
+                              <button class="btn px-2 d-none d-lg-inline">
                                     <i class="fa-solid fa-list"></i>
                               </button>
-                              <button class="btn px-2">
+                              <button class="btn px-2 d-none d-lg-inline">
                                     <i class="fa-solid fa-circle-question"></i>
                               </button>
-                              <button class="btn px-2">
+                              <button class="btn px-2 d-none d-lg-inline">
                                     <i class="fa-solid fa-ellipsis-vertical"></i>
                               </button>
                               <button class="btn px-2" id="bell">

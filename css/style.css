@@ -1,15 +1,20 @@
 
-header .row {
-      height: 60px;
+
+header img:last-child {
+      width: 42px;
 }
 
 header .my-search-bar > * {
       background-color: #e5e5e5;
 }
 
-#bell {
+header #bell {
       color: #ff8f00;
 }
+
+/* @media screen and (max-width: 992px) {
+
+} */
 
 /* DEBUG  */
       .border {
