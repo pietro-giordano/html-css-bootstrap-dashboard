@@ -1,4 +1,15 @@
 
+header .row {
+      height: 60px;
+}
+
+header .my-search-bar > * {
+      background-color: #e5e5e5;
+}
+
+#bell {
+      color: #ff8f00;
+}
 
 /* DEBUG  */
       .border {

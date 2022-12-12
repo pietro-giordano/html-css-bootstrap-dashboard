@@ -7,11 +7,44 @@
       <title>BootstrapDashboard</title>
       
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
       <!-- HEADER  -->
       <header>
+
+            <div class="container-fluid">
+                  <div class="row align-items-center bg-light">
+                        <div class="col-auto bg-white box">
+                              <img src="img/logo.svg" alt="boolean-logo">
+                        </div>
+
+                        <div class="col bg-white">
+                              <div class="input-group my-search-bar">
+                                    <button class="btn border-0" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                    <input type="text" class="form-control border-0" placeholder="Prova a cercare: lezioni di Laravel">
+                              </div>
+                        </div>
+
+                        <div class="col-auto bg-white box px-0">
+                              <button class="btn px-2">
+                                    <i class="fa-solid fa-list"></i>
+                              </button>
+                              <button class="btn px-2">
+                                    <i class="fa-solid fa-circle-question"></i>
+                              </button>
+                              <button class="btn px-2">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                              </button>
+                              <button class="btn px-2" id="bell">
+                                    <i class="fa-solid fa-bell"></i>
+                              </button>
+                        </div>
+                  </div>
+            </div>
 
       </header>
       
