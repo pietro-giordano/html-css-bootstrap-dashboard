@@ -10,19 +10,31 @@ header .my-search-bar > * {
       background-color: #e5e5e5;
 }
 
+header .my-search-bar input::placeholder {
+      font-size: 0.75rem;
+      transform: translate3d(0, -0.2rem, 0);
+}
+
 header #bell {
       color: #ff8f00;
 }
 
 aside {
       height: calc(100vh - 70px);
-      overflow: hidden;
       background-image: url("../img/sidebar-bg.png");
       background-color: #051e34;
 }
 
-.main-header span {
+aside a:hover {
+      background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.main-header .badge {
       background-color: #165bba;
+}
+
+.aside-icon {
+      width: 18px;
 }
 
 /* @media screen and (max-width: 992px) {
