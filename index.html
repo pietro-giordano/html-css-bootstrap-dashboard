@@ -40,9 +40,26 @@
                               <button class="btn px-2 d-none d-lg-inline">
                                     <i class="fa-solid fa-ellipsis-vertical"></i>
                               </button>
-                              <button class="btn px-2" id="bell">
+                              <button class="btn px-2" id="bell" data-bs-toggle="modal" data-bs-target="#myModal">
                                     <i class="fa-solid fa-bell"></i>
                               </button>
+
+                              <div class="modal" id="myModal">
+                                    <div class="modal-dialog">
+                                          <div class="modal-content">
+                              
+                                                <div class="modal-header">
+                                                      <h4 class="modal-title">Notifiche</h4>
+                                                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                                </div>
+                              
+                                                <div class="modal-body">
+                                                      Nessuna notifica da visualizzare
+                                                </div>
+                              
+                                          </div>
+                                    </div>
+                              </div>
                         </div>
                   </div>
             </div>
