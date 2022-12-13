@@ -15,6 +15,10 @@ header .my-search-bar input::placeholder {
       transform: translate3d(0, -0.2rem, 0);
 }
 
+header .my-search-bar input:focus {
+      background-color: #e5e5e5;
+}
+
 header #bell {
       color: #ff8f00;
 }
@@ -60,7 +64,7 @@ table button {
       height: 32px;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:992px) {
       .my-off {
             width: 50% !important;
       }
