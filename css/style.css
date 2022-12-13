@@ -39,7 +39,7 @@ main {
       height: calc(100vh - 70px);
 }
 
-.main-header {
+.main-header, .main-cards .faq {
       font-size: 0.9rem;
 }
 
