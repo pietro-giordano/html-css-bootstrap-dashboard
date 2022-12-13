@@ -23,33 +23,39 @@ aside {
       height: calc(100vh - 70px);
       background-image: url("../img/sidebar-bg.png");
       background-color: #051e34;
+      font-size: 0.9rem;
 }
 
 aside a:hover {
       background-color: rgba(255, 255, 255, 0.5) !important;
 }
 
-.main-header .badge {
-      background-color: #165bba;
-}
-
 .aside-icon {
       width: 18px;
 }
 
-/* @media screen and (max-width: 992px) {
+main {
+      overflow: auto;
+      height: calc(100vh - 70px);
+}
 
-} */
+.main-header {
+      font-size: 0.9rem;
+}
 
-/* DEBUG  */
-      .border {
-            border: 2px dashed black;
-      }
+.main-header .badge {
+      background-color: #165bba;
+}
 
-      .box {
-            background-color: aquamarine;
-      }
+.main-cards {
+      font-size: 0.8rem;
+}
 
-      .box2 {
-            background-color: yellow;
-      }
+table img {
+      width: 26px;
+}
+
+table button {
+      width: 32px;
+      height: 32px;
+}
