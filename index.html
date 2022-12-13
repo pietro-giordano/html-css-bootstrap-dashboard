@@ -106,7 +106,7 @@
                                     <span class="pe-2">Nuovo Studente</span>
                                     <button class="btn btn-outline-light me-3" type="button"  data-bs-toggle="offcanvas" data-bs-target="#demo"><i class="fa-solid fa-plus fa-sm"></i></button>
 
-                                    <div class="offcanvas offcanvas-end text-dark w-50 w-50-lg" id="demo">
+                                    <div class="offcanvas offcanvas-end text-dark w-100 my-off" id="demo">
                                           <div class="offcanvas-header">
                                                 <span class="offcanvas-title fs-5">Inserisci un nuovo studente</span>
                                                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
@@ -114,17 +114,58 @@
                                           <div class="offcanvas-body">
                                                 <form action="">
                                                       <div class="row">
-                                                            <div class="text-start col-12 col-md-6">
+                                                            <div class="text-start col-12 col-md-6 mb-3">
                                                                   <label for="name" class="form-label">Nome</label>
                                                                   <input type="text" class="form-control" id="name" name="name">
                                                             </div>
-                                                            <div class="text-start col-12 col-md-6">
+                                                            <div class="text-start col-12 col-md-6 mb-3">
                                                                   <label for="surname" class="form-label">Cognome</label>
                                                                   <input type="text" class="form-control" id="surname" name="surname">
                                                             </div>
-                                                            <div class="text-start col-12 col-md-6">
+                                                            <div class="text-start col-12 col-md-6 mb-3">
                                                                   <label for="email" class="form-label">Email</label>
-                                                                  <input type="email" class="form-control" id="email" name="email">
+                                                                  <div class="input-group">
+                                                                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                                                                        <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+                                                                  </div>
+                                                            </div>
+                                                            <div class="text-start col-12 col-md-6 mb-3">
+                                                                  <label for="password" class="form-label">Password</label>
+                                                                  <input type="password" class="form-control" id="password" name="password">
+                                                            </div>
+                                                            <div class="text-start col-12 mb-3">
+                                                                  <label for="address" class="form-label">Indirizzo</label>
+                                                                  <input type="text" class="form-control" id="address" name="address">
+                                                            </div>
+                                                            <div class="text-start col-12 col-md-6 mb-3">
+                                                                  <label for="city" class="form-label">Città</label>
+                                                                  <input type="text" class="form-control" id="city" name="city">
+                                                            </div>
+                                                            <div class="text-start col-12 col-md-4 mb-3">
+                                                                  <label for="citylist" class="form-label">Stato</label>
+                                                                  <select class="form-select" id="validationDefault04" required>
+                                                                        <option selected disabled value="">Scegli...</option>
+                                                                        <option>Italy</option>
+                                                                        <option>France</option>
+                                                                        <option>Germany</option>
+                                                                        <option>...</option>
+                                                                  </select>
+                                                            </div>
+                                                            <div class="text-start col-12 col-md-2 mb-3">
+                                                                  <label for="cap" class="form-label">CAP</label>
+                                                                  <input type="number" class="form-control" id="cap" name="cap">
+                                                            </div>
+                                                            <div class="text-start col-12 mb-3">
+                                                                  <label for="myfile" class="form-label">Foto</label>
+                                                                  <input type="file" class="form-control" id="myfile" name="myfile">
+                                                            </div>
+                                                            <div class="text-start col-12 mb-3">
+                                                                  <input type="checkbox" class="form-check-input" id="check" required>
+                                                                  <label for="check" class="form-label">Seleziona per proseguire</label>
+                                                            </div>
+                                                            <div class="text-start col-12">
+                                                                  <button class="btn btn-primary" type="submit">Salva</button>
+                                                                  <button class="btn btn-warning" type="reset">Svuota</button>
                                                             </div>
                                                       </div>
                                                 </form>
@@ -379,8 +420,6 @@
                         </div>
 
                   </main>
-
-                  
 
             </div>
       </section>

@@ -59,3 +59,9 @@ table button {
       width: 32px;
       height: 32px;
 }
+
+@media screen and (min-width:768px) {
+      .my-off {
+            width: 50% !important;
+      }
+}
